@@ -33,9 +33,6 @@ func serveWs(w http.ResponseWriter, r *http.Request) {
 			log.Println("write:", err)
 			break
 		}
-		/* select {
-		case message, ok := <- c.send:
-		}*/
 	}
 }
 
