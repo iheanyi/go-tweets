@@ -1,35 +1,20 @@
 {
   "name": "go-tweets",
   "version": "1.0.0",
-  "description": "Just a data visualization game.",
+  "description": "Just a data visualization thing.",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iheanyi/go-tweets.git"
-  },
-  "keywords": [
-    "twitter",
-    "golang",
-    "visualiztions",
-    "data",
-    "data-visualization",
-    "data-mining"
-  ],
+  "repository": "git@github.com/iheanyi/go-tweets",
   "author": "Iheanyi Ekechukwu",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/iheanyi/go-tweets/issues"
-  },
   "homepage": "https://github.com/iheanyi/go-tweets#readme",
   "dependencies": {
     "es6-promise": "^4.0.5",
     "immutable": "^3.8.1",
     "isomorphic-fetch": "^2.2.1",
-    "next": "^1.1.1",
-    "react-map-gl": "^1.7.2"
+    "next": "^1.1.1"
   }
 }
