@@ -17,7 +17,7 @@ export default class extends React.Component {
         console.log(evt);
         console.log(evt.data);
       };
-      
+
       conn.onclose = (evt) => {
         console.log("Closing out connection!");
       };
@@ -31,7 +31,7 @@ export default class extends React.Component {
   render() {
     return (
       <div>Hey Young World</div>
-      );
+    );
   }
 }
 //export default () => <div>Hello World!</div>
