@@ -24,3 +24,6 @@ go-tweets
 *.test
 *.prof
 .env
+client/.next/*
+node_modules/*
+.next/*
